@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 import numpy as np
-import sklearn
+sudo pip3 install scikit-learn
 
 # Load the model
 model = pickle.load(open('Model.pkl', 'rb'))
